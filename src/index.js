@@ -5,8 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 ReactDOM.render(
     <Router>
@@ -14,6 +12,8 @@ ReactDOM.render(
     </Router>,
     document.getElementById("root")
 );
+
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
