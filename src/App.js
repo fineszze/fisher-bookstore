@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Navbar } from 'react-bootstrap';
 
 export default class App extends Component {
   render() {
-    return <div>Fisher Bookstore</div>;
+    return (
+      <div className="App container">
+        <NavBar bg = "light" expand="lg">
+          <Navbar.Brand>
+            <Link to ="/">Fisher Bookstore</Link>
+          </Navbar.Brand>
+        </NavBar>
+        <Routes />
+      </div>
+    );
   }
 }
+
