@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css' ;
+import React, { Component } from 'react';
+import './App.css';
+import { Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import Routes from "./Routes.js"
 
 export default class App extends Component {
   render() {
@@ -16,4 +18,5 @@ export default class App extends Component {
     );
   }
 }
+
 
