@@ -14,11 +14,11 @@ export default class App extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
-            <Nav>
-              <NavItem>
-                <Nav.Link href="/books">Books</Nav.Link>
-              </NavItem>
-            </Nav>
+            <Navbar>
+              <Navbar.Item>
+                <Navbar.Link href="/books">Books</Navbar.Link>
+              </Navbar.Item>
+            </Navbar>
           </Navbar.Collapse>
         </Navbar>
       <Routes />
