@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import "./App.css";
+import './App.css';
 import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Routes from "./Routes.js"
 
-
-export default class App  extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App container">
@@ -17,7 +16,7 @@ export default class App  extends Component {
           <Navbar.Collapse className="justify-content-end">
             <Navbar>
               <Navbar.Item>
-                <Navbar.Link href="/books">Books</Navbar.Link>
+              <Navbar.Link href="/books">books</Navbar.Link>
               </Navbar.Item>
             </Navbar>
           </Navbar.Collapse>
@@ -27,5 +26,3 @@ export default class App  extends Component {
     );
   }
 }
-
-
