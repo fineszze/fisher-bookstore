@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import "./App.css";
 import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Routes from "./Routes.js"
 
-export default class App extends Component {
+
+export default class App  extends Component {
   render() {
     return (
       <div className="App container">
