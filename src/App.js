@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import { Navbar } from "react-bootstrap";
+import "./App.css";
+import { Navbar, NavItem, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Routes from "./Routes.js"
-
+import Routes from "./Routes.js";
 export default class App extends Component {
   render() {
     return (
@@ -12,17 +11,17 @@ export default class App extends Component {
           <Navbar.Brand>
             <Link to ="/">Fisher Bookstore</Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
           <Navbar.Collapse className="justify-content-end">
-            <Navbar>
-              <Navbar.Item>
-              <Navbar.Link href="/books">books</Navbar.Link>
-              </Navbar.Item>
-            </Navbar>
+            <Nav>
+              <NavItem>
+              <Nav.Link href="/books">Books</Nav.Link>
+              </NavItem>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
       <Routes />
       </div>
     );
-  }
 }
+};

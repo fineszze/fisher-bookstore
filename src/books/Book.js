@@ -5,7 +5,7 @@ export default function Book() {
     return (
         <div className = "Book">
             <div className = "lander">
-                <i1>Book</i1>
+                <h1>Book</h1>
                 <q>Welcome to Fisher Bookstore.</q>
             </div>
         </div>
