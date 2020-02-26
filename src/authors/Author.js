@@ -13,6 +13,19 @@ export default class Author extends Component {
                 {
                     name: "Nicole Forsgren",
                 },
+                {
+                    name: "Cynthia Williams",
+                },
+                {
+                    name: "Tony Robbins",
+                },
+                {
+                    name: "Albert Einstein",
+                },
+                {
+                    name: "Anthony Williams",
+                },
+
 
             ]
         };
