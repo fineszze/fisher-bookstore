@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar, NavItem, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Routes from "./Routes.js";
+
 export default class App extends Component {
   render() {
     return (
@@ -16,6 +17,9 @@ export default class App extends Component {
             <Nav>
               <NavItem>
               <Nav.Link href="/books">Books</Nav.Link>
+              </NavItem>
+              <NavItem>
+              <Nav.Link href="/author">Author</Nav.Link>
               </NavItem>
             </Nav>
           </Navbar.Collapse>
