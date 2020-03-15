@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BookDisplay } from "./BooksDisplay";
+import { BookDisplay } from "./BookDisplay";
 
 export default function Books(props) {
     const [data, setData] = useState([]);
